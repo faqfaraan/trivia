@@ -1,1 +1,129 @@
-<p>trivia-form works!</p>
+<mat-card>
+  <form>
+    <mat-form-field>
+      <input matInput type="text" name="topic" ngModel required minlength="3" placeholder="Topic">
+    </mat-form-field>
+    <mat-form-field>
+      <textarea matInput rows="3" name="q1" ngModel required placeholder="Question #1"></textarea>
+    </mat-form-field>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        Answer Options
+      </mat-expansion-panel-header>
+      <mat-form-field>
+        <input matInput type="text" name="q1a1" ngModel required placeholder="Option 1">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="text" name="q1a2" ngModel required placeholder="Option 2">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="text" name="q1a3" ngModel required placeholder="Option 3">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="text" name="q1a4" ngModel required placeholder="Option 4">
+      </mat-form-field>
+    </mat-expansion-panel>
+    <mat-form-field>
+      <textarea matInput rows="3" name="q2" ngModel required placeholder="Question #2"></textarea>
+    </mat-form-field>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        Answer Options
+      </mat-expansion-panel-header>
+      <mat-form-field>
+        <input matInput type="text" name="q1a1" ngModel required placeholder="Option 1">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="text" name="q1a2" ngModel required placeholder="Option 2">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="text" name="q1a3" ngModel required placeholder="Option 3">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="text" name="q1a4" ngModel required placeholder="Option 4">
+      </mat-form-field>
+    </mat-expansion-panel>
+    <mat-form-field>
+      <textarea matInput rows="3" name="q3" ngModel required placeholder="Question #3"></textarea>
+    </mat-form-field>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        Answer Options
+      </mat-expansion-panel-header>
+      <mat-form-field>
+        <input matInput type="text" name="q1a1" ngModel required placeholder="Option 1">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="text" name="q1a2" ngModel required placeholder="Option 2">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="text" name="q1a3" ngModel required placeholder="Option 3">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="text" name="q1a4" ngModel required placeholder="Option 4">
+      </mat-form-field>
+    </mat-expansion-panel>
+    <mat-form-field>
+      <textarea matInput rows="3" name="q4" ngModel required placeholder="Question #4"></textarea>
+    </mat-form-field>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        Answer Options
+      </mat-expansion-panel-header>
+      <mat-form-field>
+        <input matInput type="text" name="q1a1" ngModel required placeholder="Option 1">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="text" name="q1a2" ngModel required placeholder="Option 2">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="text" name="q1a3" ngModel required placeholder="Option 3">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="text" name="q1a4" ngModel required placeholder="Option 4">
+      </mat-form-field>
+    </mat-expansion-panel>
+    <mat-form-field>
+      <textarea matInput rows="3" name="q5" ngModel required placeholder="Question #5"></textarea>
+    </mat-form-field>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        Answer Options
+      </mat-expansion-panel-header>
+      <mat-form-field>
+        <input matInput type="text" name="q1a1" ngModel required placeholder="Option 1">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="text" name="q1a2" ngModel required placeholder="Option 2">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="text" name="q1a3" ngModel required placeholder="Option 3">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput type="text" name="q1a4" ngModel required placeholder="Option 4">
+      </mat-form-field>
+    </mat-expansion-panel>
+    <mat-form-field>
+      <textarea matInput rows="3" name="bonus" ngModel required placeholder="BONUS QUESTION"></textarea>
+    </mat-form-field>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        Answer
+      </mat-expansion-panel-header>
+      <input matInput type="text" name="bonusAnswer" ngModel required placeholder="Bonus Answer">
+    </mat-expansion-panel>
+    <mat-form-field>
+      <textarea matInput rows="3" name="tie" ngModel required placeholder="Tie Breaker"></textarea>
+    </mat-form-field>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        Answer
+      </mat-expansion-panel-header>
+      <input matInput type="text" name="tieBreakerAnswer" ngModel required placeholder="Tie Breaker Answer">
+    </mat-expansion-panel>
+    <button
+      mat-raised-button
+      color="primary"
+      type="submit">Create Trivia</button>
+  </form>
+</mat-card>

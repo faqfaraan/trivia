@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./trivia-form.component.css']
 })
 export class TriviaFormComponent implements OnInit {
+  numberOfQuestions = 5;
 
   constructor() { }
 
